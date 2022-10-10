@@ -1,0 +1,18 @@
+// Importamos las modificaciones realizadas para Cotecmar 5
+@use 'cotecmar/custom';
+
+
+// Importamos los componentes.
+@use 'cotecmar/componentes/typo';
+@use 'cotecmar/componentes/mixins';
+@use 'cotecmar/componentes/animaciones';
+@use 'cotecmar/componentes/cajas';
+@use 'cotecmar/componentes/separadores';
+@use 'cotecmar/componentes/decoradores';
+
+// Importamos las personalizaciones a áreas.
+@use 'cotecmar/secciones/header';
+@use 'cotecmar/secciones/navbar';
+@use 'cotecmar/secciones/footer';
+
+

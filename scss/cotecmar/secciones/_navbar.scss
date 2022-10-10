@@ -1,0 +1,47 @@
+// Para usar las variables personalizadas, las importamos.
+@use '../custom' as *;
+
+/* Menú animado  -*/ 
+.barra_superior {
+    background: #020924d0;
+    color: #fff;
+    padding: 1rem;   
+    -webkit-transition: all .5s ease;
+            transition: all .5s ease;
+}
+
+.barra_superior.fondo-menu {
+    padding: 0px;
+    color: transparent;
+    background: #0c377f;
+}
+
+
+#menu-principal {
+
+    .dropdown-menu{
+        background-color:#0c377f;
+    }
+
+    .nav-item {
+
+        &:hover {
+            border-bottom: 4px solid $white;
+        }
+    }
+
+    .dropdown-item{
+        color:rgb(233, 233, 233);
+        background-color: #0c377f;
+
+        &:hover {
+            color:rgb(255, 255, 255);
+            background-color: #020924;
+        }
+
+        &:not(:last-child) {
+            border-bottom: 1px solid #aeb1b8;
+        }
+    }
+}
+

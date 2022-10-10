@@ -1,0 +1,205 @@
+// Importamos las modificaciones realizadas para Bootstrap 5
+@use '../custom'as *;
+@use '../componentes/mixins'as *;
+
+/* Divisores visuales */
+/* Uso de porcentaje y extend para reutilizar css */
+
+// Divisor base
+%divisor {
+    height: 3rem;
+    border-width: 1px 0;
+}
+
+// Extensión color cotecmar
+.divisor-cotecmar {
+    @extend %divisor;
+    box-shadow: inset 0 .5em 1.5em rgba(2, 9, 36, 0.1), inset 0 .125em .5em rgba(2, 9, 36, 0.15);
+    background-color: rgba(2, 9, 36, 0.7);
+    border: solid rgba(2, 9, 36, 0.15);
+}
+
+// Extensión color gris
+.divisor-gris {
+    @extend %divisor;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+}
+
+// Degradados 
+.degradado-cotecmar {
+    // se llama, previamente importado.
+    @include gradiente;
+}
+
+// Sombras cajas cotecmar
+.sombra-1, .sombra-3, .sombra-4, .sombra-6 {
+    position: relative;
+}
+
+// Variaciones de cajas
+.sombra-1 {
+    
+    &::before, &::after {
+        bottom: 15px;
+        box-shadow: 0 15px 10px #aaa;
+        content: "";
+        max-width: 300px;
+        position: absolute;
+        top: 80%;
+        width: 50%;
+        z-index: -1;
+    }
+    &::after {
+        left: auto;
+        transform: rotate(3deg);
+        right: 10px;
+    }
+    &::before {
+        left: 10px;
+        transform: rotate(-3deg);
+    }
+}
+
+.sombra-2 {
+
+    &::before {
+        border-radius: 100px/10px;
+        bottom: 5px;
+        box-shadow: 0 0 25px 17px #aaa;
+        content: "";
+        left: 30px;
+        position: absolute;
+        right: 30px;
+        top: 80%;
+        z-index: -1;
+    }
+}
+
+
+.sombra-3, .sombra-4 {
+
+    &::before {
+        bottom: 15px;
+        box-shadow: 0 15px 10px #aaa;
+        content: "";
+        left: 10px;
+        max-width: 300px;
+        position: absolute;
+        top: 80%;
+        transform: rotate(-3deg);
+        width: 50%;
+        z-index: -1;
+    }
+}
+
+
+.sombra-4 {
+
+    &::before {
+        left: auto;
+        right: 10px;
+        transform: rotate(3deg);
+    }
+}
+
+.sombra-5 {
+
+    &::before, &::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+    }
+
+    &::after {
+        border-radius: 100px/10px;
+        bottom: 14px;
+        box-shadow: 0 0 25px 17px #aaa;
+        left: 30px;
+        right: 30px;
+        top: 14px;
+    }
+
+    &::before {
+        border-radius: 10px/40px;
+        bottom: 20px;
+        box-shadow: 0 0 25px 10px #aaa;
+        left: 8px;
+        right: 8px;
+        top: 20px;
+    }
+}
+
+.sombra-6 {
+
+    &::before, &::after {
+        bottom: 50px;
+        box-shadow: 0 10px 25px 10px #aaa;
+        content: "";
+        position: absolute;
+        top: 26px;
+        width: 20%;
+        z-index: -1;
+    }
+
+    &::after {
+        right: 10px;
+        transform: rotate(8deg);
+    }
+
+    &::before {
+        left: 12px;
+        transform: rotate(-10deg);
+    }
+}
+// Fin Variaciones de cajas
+
+// Divisores y decoradores cotecmar
+.divisor-titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.divisor-titulo::before {
+  content: '';
+  height: 1.5px;
+  background: $gray-400;
+  flex: 1;
+  margin: 0 .45em 0 0
+}
+
+.divisor-titulo::after {
+  content: '';
+  height: 1.5px;
+  background: $gray-400;
+  flex: 1;
+  margin: 0 0 0 .45em
+}
+
+.caja-descriptiva {
+  width: 100%;
+  text-align: center;
+  height:20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-bottom: 1px solid #575757;
+}
+
+.interior-descriptiva {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px 25px;
+  background-color: #575757;
+  color: white !important;
+  display: inline;
+}
+
+
+// Fin  Divisores y decoradores cotecmar

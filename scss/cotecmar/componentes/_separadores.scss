@@ -1,0 +1,7 @@
+// Para usar las variables personalizadas, las importamos.
+
+@use '../custom' as *;
+
+.separador-superior {
+  margin-top: 13vh;
+}

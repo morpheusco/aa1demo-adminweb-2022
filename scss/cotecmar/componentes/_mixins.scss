@@ -1,0 +1,8 @@
+// Para usar las variables personalizadas, las importamos.
+@use '../custom' as *;
+
+// Gradientes
+@mixin gradiente {
+    background: linear-gradient(to right, rgba ($primary, 0.95) rgba($secondary, 0.95));
+}
+

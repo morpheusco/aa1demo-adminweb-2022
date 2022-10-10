@@ -1,0 +1,35 @@
+// Para usar las variables personalizadas, las importamos.
+
+@use '../custom' as *;
+
+// Se determina solo el tipo de letra.
+// Para el uso de variaciones como el grosor, italicas y lineheight se usarán clases Bootstrap.
+.font-cotecmar {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Tipografía para COTECMAR */
+.font-family-cotecmar-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.font-family-cotecmar-regular {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.font-family-cotecmar-medium {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.font-family-cotecmar-bold {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 800;
+}

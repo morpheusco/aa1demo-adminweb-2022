@@ -1,0 +1,135 @@
+// A sobre escribir, primero antes de importación - revisar __variables.scss de Bootstrap 5
+// Ejemplo, además se le quita el atributo !default 
+// $white:    #fff !default; a $white:    #fff ; 
+
+// Definimos los Colores del theme.
+$cotemar-brand: #052647;
+$cotecmar-light: #0C377F;
+$cotecmar-dark: #020924;
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+
+// Sobre escribiendo los colores del theme.
+// scss-docs-start color-variables
+$blue:    #0052A8;
+$indigo:  #6610f2;
+$purple:  #6A32D1;
+$pink:    #AD0050;
+$red:     #A92330;
+$orange:  #fd7e14;
+$yellow:  #705400;
+$green:   #186329;
+$teal:    #20c997;
+$cyan:    #18616D;
+
+// scss-docs-start theme-color-variables
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $orange;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+// Theme COTECMAR
+$brand:         $cotemar-brand;
+$brand-dark:    $cotecmar-dark;
+$brand-light:   $cotecmar-light;
+
+// Merge Map para componentes, incluye COTECMAR
+$custom-colors: (
+  "brand-dark": $brand-dark,
+  "brand-light": $brand-light,
+  "brand":      $brand
+);
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
+
+// Merge the maps in Bootstrap5
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Otras variables 
+$enable-shadows: true;
+$enable-gradients: false;
+
+// Texto.
+$body-color: $black;
+$font-family-sans-serif: "Lato", sans-serif;
+$font-family-cotecmar: 'Montserrat', sans-serif !important;
+
+// Botones con fuente en Poppins.
+$input-btn-font-family:       $font-family-cotecmar;
+
+// Color active del breadcrumb
+.breadcrumb-item.active {
+  color: $dark !important;
+}
+
+// IMPORTANDO BOOSTRAP 5
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// Sobre escribiendo elementos específicos.
+.btn-outline-warning, .text-warning{
+    color: $yellow !important;
+}
+
+.btn-outline-light {
+    color: $gray-900 !important;
+    background-color: $gray-100 !important;
+    border-color: $gray-300 !important;
+
+    &:hover {
+        color: $black !important;
+        background-color: $gray-300 !important;
+        border-color: $gray-700 !important;
+    }
+}
+
+.alert-light {
+    border-color: $gray-300 !important;
+}
+
+.btn-outline-secondary {
+    color:$gray-700;
+}
+
+#edit-submit {
+  height: 2.5rem;
+}
+

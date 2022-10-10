@@ -1,0 +1,17 @@
+// Importamos las modificaciones realizadas para Bootstrap 5
+@use 'bootstrap/custom';
+
+
+// Importamos los componentes.
+@use 'bootstrap/componentes/typo';
+@use 'bootstrap/componentes/mixins';
+@use 'bootstrap/componentes/animaciones';
+@use 'bootstrap/componentes/cajas';
+@use 'bootstrap/componentes/separadores';
+@use 'bootstrap/componentes/decoradores';
+
+// Importamos las personalizaciones a áreas.
+@use 'bootstrap/secciones/header';
+@use 'bootstrap/secciones/navbar';
+@use 'bootstrap/secciones/footer';
+

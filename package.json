@@ -1,0 +1,27 @@
+{
+  "name": "cotecmar-drupal-bootstrap5-sass",
+  "version": "1.0.0",
+  "description": "Personalización de Boostrap 5 con sass para el template de Drupal de COTECMAR",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":           "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "preDrupal",
+    "COTECMAR"
+  ],
+  "author": "Morpheusco",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.3.7",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.0.1"
+  }
+}

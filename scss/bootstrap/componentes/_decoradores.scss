@@ -1,0 +1,6 @@
+// Importamos las modificaciones realizadas para Bootstrap 5
+@use '../custom'as *;
+@use '../componentes/mixins'as *;
+
+/* Divisores visuales */
+/* Uso de porcentaje y extend para reutilizar css */

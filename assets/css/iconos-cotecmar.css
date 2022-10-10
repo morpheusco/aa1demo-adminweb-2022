@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'icomoon-cotecmar';
+  src:  url('../webfonts/cotecmar/icomoon-cotecmar.eot?cle6nl');
+  src:  url('../webfonts/cotecmar//icomoon-cotecmar.eot?cle6nl#iefix') format('embedded-opentype'),
+    url('../webfonts/cotecmar/icomoon-cotecmar.ttf?cle6nl') format('truetype'),
+    url('../webfonts/cotecmar/icomoon-cotecmar.woff?cle6nl') format('woff'),
+    url('../webfonts/cotecmar/icomoon-cotecmar.svg?cle6nl#icomoon-cotecmar') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^="icono-"], [class*=" icono-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-cotecmar' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icono-aliado-cotecmar:before {
+  content: "\e900";
+
+}
+.icono-ancla-cotecmar:before {
+  content: "\e901";
+
+}
+.icono-astillero-cotecmar:before {
+  content: "\e923";
+
+}
+.icono-bombilla-cotecmar:before {
+  content: "\e902";
+
+}
+.icono-brujula-cotecmar:before {
+  content: "\e903";
+
+}
+.icono-buque1-cotecmar:before {
+  content: "\e904";
+
+}
+.icono-buque2-cotecmar:before {
+  content: "\e905";
+
+}
+.icono-calendario-cotecmar:before {
+  content: "\e906";
+
+}
+.icono-casco-cotecmar:before {
+  content: "\e907";
+
+}
+.icono-construccion-cotecmar:before {
+  content: "\e908";
+}
+.icono-construimos-cotecmar:before {
+  content: "\e909";
+
+}
+.icono-costa-cotecmar:before {
+  content: "\e90a";
+
+}
+.icono-cotecmar_icono-cotecmar:before {
+  content: "\e90b";
+
+}
+.icono-defensa-cotecmar:before {
+  content: "\e924";
+
+}
+.icono-engranaje-cotecmar:before {
+  content: "\e90c";
+
+}
+.icono-gedin1-cotecmar:before {
+  content: "\e925";
+
+}
+.icono-gedin2-cotecmar:before {
+  content: "\e926";
+
+}
+.icono-gedin3-cotecmar:before {
+  content: "\e927";
+
+}
+.icono-gedin4-cotecmar:before {
+  content: "\e928";
+
+}
+.icono-gedin5-cotecmar:before {
+  content: "\e929";
+
+}
+.icono-gedin6-cotecmar:before {
+  content: "\e92a";
+
+}
+.icono-gedin7-cotecmar:before {
+  content: "\e92b";
+
+}
+.icono-grua-cotecmar:before {
+  content: "\e90d";
+
+}
+.icono-helice-cotecmar:before {
+  content: "\e90e";
+
+}
+.icono-investigacion-cotecmar:before {
+  content: "\e90f";
+
+}
+.icono-laptop-cotecmar:before {
+  content: "\e910";
+
+}
+.icono-llave-cotecmar:before {
+  content: "\e911";
+
+}
+.icono-lupa-cotecmar:before {
+  content: "\e912";
+
+}
+.icono-mar1-cotecmar:before {
+  content: "\e913";
+
+}
+.icono-mar2-cotecmar:before {
+  content: "\e914";
+
+}
+.icono-mascara-cotecmar:before {
+  content: "\e915";
+
+}
+.icono-medica-cotecmar:before {
+  content: "\e916";
+
+}
+.icono-modernizacion-cotecmar:before {
+  content: "\e917";
+}
+.icono-notificaciones-cotecmar:before {
+  content: "\e918";
+
+}
+.icono-porta-cotecmar:before {
+  content: "\e919";
+
+}
+.icono-reloj-cotecmar:before {
+  content: "\e91a";
+
+}
+.icono-reloj24-cotecmar:before {
+  content: "\e92c";
+
+}
+.icono-reparaciones-cotecmar:before {
+  content: "\e91b";
+}
+.icono-rio-cotecmar:before {
+  content: "\e91c";
+
+}
+.icono-seleccion-cotecmar:before {
+  content: "\e91d";
+
+}
+.icono-telefono-cotecmar:before {
+  content: "\e91e";
+
+}
+.icono-timon-cotecmar:before {
+  content: "\e91f";
+
+}
+.icono-tornillo-cotecmar:before {
+  content: "\e920";
+
+}
+.icono-varada-cotecmar:before {
+  content: "\e92d";
+
+}
+.icono-velero-cotecmar:before {
+  content: "\e921";
+
+}
+.icono-velero2-cotecmar:before {
+  content: "\e922";
+
+}

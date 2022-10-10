@@ -1,0 +1,39 @@
+// A sobre escribir, primero antes de importación - revisar __variables.scss de Bootstrap 5
+// Ejemplo, además se le quita el atributo !default 
+// $white:    #fff !default; a $white:    #fff ; 
+
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+// scss-docs-end gray-color-variables
+
+
+// Sobre escribiendo los colores del theme.
+// scss-docs-start color-variables
+$blue:    #0052A8;
+
+
+// scss-docs-start theme-color-variables
+$primary:       $blue;
+$secondary:     $gray-600;
+
+// Definimos los Colores del theme.
+$cotemar-brand: #052647;
+$cotecmar-light: #0C377F;
+$cotecmar-dark: #020924;
+
+// Theme COTECMAR
+$brand:         $cotemar-brand;
+$brand-dark:    $cotecmar-dark;
+$brand-light:   $cotecmar-light;
+
