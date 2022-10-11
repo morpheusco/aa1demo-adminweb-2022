@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <title>Cotecmar base bootstrap 5 para drupal template</title>
-  <meta charset="UTF-8">
-  <meta name="description" content="Theme kit basado en Bootstrap para probar combinaciones de colores y personalización en SASS, este ejemplo es para COTECMAR" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<head>
+  <title>Cotecmar - Demo Sistema Integrado de Gestión Comercial </title>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="Theme kit basado en Bootstrap ejemplo real (no solicitado por la compañía, con fines educativos) COTECMAR" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <!-- Se usan fuentes de Google Lato y Poppins, antes de la carga de Bootstrap -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Montserrat:ital,wght@0,400;0,600;0,800;1,200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Montserrat:ital,wght@0,400;0,600;0,800;1,200&display=swap"
+    rel="stylesheet" />
 
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/font-awesome.css">
@@ -18,501 +21,509 @@
   <link rel="stylesheet" href="assets/css/iconos-cotecmar.css">
 
 </head>
-<body>
 
+<body>
   <!-- Encabezado -->
   <header class="fixed-top shadow barra_superior">
-
-    <div class="container mt-1 mb-1 ">
-      <div class="row"> 
-
+    <div class="container mt-1 mb-1">
+      <div class="row">
         <div class="col-md-6">
-          <h1 class="h6 mt-1"> 
-            <small class="text-white"> Corporación de Ciencia y Tecnología para el Desarrollo de la Industria Naval Marítima y Fluvial </small>
+          <h1 class="h6 mt-1">
+            <small class="text-white">
+              Corporación de Ciencia y Tecnología para el Desarrollo de la
+              Industria Naval Marítima y Fluvial
+            </small>
           </h1>
         </div>
-        <div class="col-md-3 mb-1"> 
+        <div class="col-md-3 mb-1">
           <a class="text-white" href="mailto:servicioalcliente@cotecmar.com">
             <small> servicioalcliente @ cotecmar.com </small>
           </a>
         </div>
         <div class="col-md-3 mt-1">
-          <div class="form"> 
+          <div class="form">
             <div class="row">
-              <div class="col-8"> 
-                <input class="form-control me-sm-1" type="search" placeholder="Buscar" aria-label="Buscar">
+              <div class="col-8">
+                <input class="form-control me-sm-1" type="search" placeholder="Buscar" aria-label="Buscar" />
               </div>
               <div class="col">
-                <button class="btn btn-primary" type="submit" value="Buscar en la web de Cotecmar" name="buscador" aria-label="Buscar" id="btn_buscador" alt="Buscador">
-                  <span alt="Boton buscador" class="fa fa-search">  </span>
+                <button class="btn btn-primary" type="submit" value="Buscar en la web de Cotecmar" name="buscador"
+                  aria-label="Buscar" id="btn_buscador" alt="Buscador">
+                  <span alt="Boton buscador" class="fa fa-search"> </span>
                 </button>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
     <nav class="navbar navbar-expand-md navbar-dark">
-      <div class="container"> 
-        
-        <a class="navbar-brand" href="index.html"> 
-          <img class="img-fluid" src="assets/img/Cotecmar_21_anos-comprimido.svg" style="height: 44px;" alt="Logo COTECMAR">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img class="img-fluid" src="assets/img/Cotecmar_21_anos-comprimido.svg" style="height: 44px"
+            alt="Logo COTECMAR" />
         </a>
-
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Toggle navigation" >
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="menu-principal">
-          
           <ul class="navbar-nav mx-auto">
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false" > Nosotros  </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="quienes.html"> Quienes somos </a></li>
-                <li><a class="dropdown-item" href="equipo.html"> Equipo de trabajo </a></li>
-                <li><a class="dropdown-item" href="nuestras-instalaciones.html"> Nuestras instalaciones </a></li>
-              </ul>
-            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="construcciones.html"> Construcciones  
+              <a class="nav-link" href="#">
+                Inicio
                 <span class="sr-only">(Actual) </span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="reparacionymto.html"> Reparación y Modernización  </a>
+              <a class="nav-link" href="#">
+                Clientes
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="investigacion.html"> I+D+i </a>
+              <a class="nav-link" href="#">
+                Proveedores
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="disenoeingenieria.html"> Diseño e ingeniería </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="servicios.html"> Servicios Industriales </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://sigcc.cotecmar.com:9090/sigcc/inicio/"> Clientes ARC  </a>
+              <a class="nav-link" href="#">
+                Funcionarios
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index-en.html"> EN </a>
             </li>
           </ul>
-
         </div>
-          
       </div>
     </nav>
-
   </header>
   <!-- Fin  Encabezado -->
 
-  <!-- Etiqueta principal - en home es solo video -->
-  <!-- <main class="container-fluid"> 
-    <div class="row">
-      <div class="col"> -->
-  <section>
-    <video class="ratio ratio-21x9" loop="loop" autoplay="autoplay" muted="muted" preload>
-      <source src="assets/video/video_margen_completa_home.mp4" type="video/mp4">
-      <source src="assets/video/video_margen_completa_home.webm" type="video/webm">
-    </video>
-  </section>        
-      <!-- </div>
-    </div>
-  </main> -->
-  <!-- Fin etiqueta principal -->
+  <!-- Contenido , siempre en main, comenzamos con row cada fila de contenido  -->
+  <main class="my-2">
 
-  <!-- Área Servicios -->
-  <section class="container">
-    <div class="row">
-      <h2 class="text-center mt-3 font-family-cotecmar-medium">Nuestros servicios </h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-12 col-sm-6 col-md-4 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="assets/img/servicioshome/Servicios-Construcciones-Front.jpg" alt="Construcciones en COTECMAR" title="Imagen de construcciones">
-          <div class="card-body"> 
-            <h3 class="card-title"><a class="stretched-link text-decoration-none" href="construcciones.html">Construcciones  </a></h3>
-            <p class="card-text">Desarrollamos proyectos para la construcción de plataformas, buques y artefactos navales con un amplio rango de posibilidades de trabajos, defensa y tecnologías de uso dual.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="assets/img/servicioshome/Reparacion-Mantenimiento-Front.jpg" alt="Reparaciones en COTECMAR" title="Imagen de Reparaciones">
-          <div class="card-body"> 
-            <h3 class="card-title"><a class="stretched-link text-decoration-none" href="reparacionymto-particulares.html">Reparación y Mantenimiento de Particulares </a></h3>
-            <p class="card-text">Creemos que un buque siempre debe operar en sus óptimas condiciones y es así justamente como nos comprometemos a que salgan de nuestras instalaciones.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="assets/img/servicioshome/PreparacionyMantenimientoARC.jpg" alt="Reparaciones ARC en COTECMAR" title="Imagen de Reparaciones ARC">
-          <div class="card-body"> 
-            <h3 class="card-title"><a class="stretched-link text-decoration-none" href="reparacionymto-arc.html">Reparación y Mantenimiento ARC e Institucionales</a></h3>
-            <p class="card-text">Estamos comprometidos con la Armada de Colombia para garantizar el mantenimiento y desarrollo de su flota en todo el territorio nacional.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="assets/img/servicioshome/Ciencia-Tecnologia-Front.jpg" alt="La tecnología en COTECMAR" title="Imagen de Tecnologia en COTECMAR">
-          <div class="card-body"> 
-            <h3 class="card-title"><a class="stretched-link text-decoration-none" href="investigacion.html">Ciencia y Tecnología</a></h3>
-            <p class="card-text">El conocimiento es el activo más valioso de una organización, en Cotecmar lo transformamos e innovamos, siempre pensando en mejorar y ser más competitivos.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="assets/img/servicioshome/Diseno-ingenieria-Front.jpg" alt="Diseño e Ingeniería en COTECMAR" title="Imagen de Diseño e ingeniería">
-          <div class="card-body">
-            <h3 class="card-title"><a class="stretched-link text-decoration-none" href="disenoeingenieria.html">Diseño e Ingeniería </a></h3>
-            <p class="card-text">Posicionado como una de las oficinas de diseño naval más importantes del continente, contamos con personal altamente calificado, tecnología de vanguardia y metodologías que son estado del arte.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="assets/img/servicioshome/Servicios-Industria-Front.jpg" alt="Servicios a la industria" title="Imagen de Servicios a la industria en COTECMAR">
-          <div class="card-body"> 
-            <h3 class="card-title"><a class="stretched-link text-decoration-none" href="servicios.html">Servicios Industriales</a></h3>
-            <p class="card-text"> Gracias a nuestra capacidad instalada como astillero, ofrecemos servicios y soluciones a medida al sector industrial.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Fin Área Servicios -->
+    <section class="container-fluid">
 
-  <!-- Área carrousel Destacados -->
-  <div class="container-fluid mb-5 sombra-1 border bg-white p-5 text-center"> 
-    <div class="row">
-      <div class="col-1"> 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carrouselCaracteristicas" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-          <span class="visually-hidden"> Anterior </span>
-        </button>
-      </div>
-      <div class="col-10"> 
-        <div class="carousel slide carousel-dark" id="carrouselCaracteristicas" data-bs-ride="carousel" data-bs-interval="false" data-bs-pause="hover"> 
-          <div class="carousel-inner"> 
-            
-            <div class="carousel-item active mb-2"> 
-              <div class="row"> 
-                <div class="col"> 
-                  <span class="fas fa-ship fa-5x mb-2 text-brand"> </span>
-                  <p class="lead">Más de 180 cascos construidos  </p>
-                </div>
-                <div class="col"> 
-                  <span class="fas fa-trophy fa-5x mb-2 text-brand"> </span>
-                  <p class="lead">Más de 20 años de experiencia </p>
-                </div>
-                <div class="col"> 
-                  <span class="fas fa-warehouse fa-5x mb-2 text-brand"> </span>
-                  <p class="lead">Tenemos dos plantas en Cartagena, Colombia  </p>
-                </div>
-              </div>
+      <!-- Carrusel -->
+      <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- Elementos -->
+            <div class="carousel-item active">
+              <img src="assets/img/banner1.jpg" class="d-block w-100" alt="Banner 1 del sitio demo">
             </div>
-            <div class="carousel-item mb-2">
-              <div class="row"> 
-                <div class="col"> 
-                  <span class="fa fa-home fa-5x mb-2 text-brand"> </span>
-                  <p class="lead">Contamos con 10 posiciones de varada y 7 posiciones de varada a flote </p>
-                </div>
-                <div class="col"> 
-                  <span class="fas fa-archway fa-5x mb-2 text-brand"> </span>
-                  <p class="lead">Capacidad de elevación máxima de 3600 toneladas </p>
-                </div>
-                <div class="col"> 
-                  <span class="fas fa-flag fa-5x mb-2 text-brand"> </span>
-                  <p class="lead">Atendemos clientes de: Alemania, Panamá, Reino unido, Brasil, Países bajos y mucho más! </p>
-                </div>
-              </div>
+            <div class="carousel-item">
+              <img src="assets/img/banner2.jpg" class="d-block w-100" alt="Banner 2 del sitio demo">
             </div>
+            <div class="carousel-item">
+              <img src="assets/img/banner3.jpg" class="d-block w-100" alt="Banner 3 del sitio demo">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/banner4.jpg" class="d-block w-100" alt="Banner 4 del sitio demo">
+            </div>
+            <!-- Fin Elementos -->
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
         </div>
       </div>
-      <div class="col-1"> 
-        <button class="carousel-control-next" type="button" data-bs-target="#carrouselCaracteristicas" data-bs-slide="next">
-          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-          <span class="visually-hidden"> Siguiente </span>
-        </button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="carousel-indicators"> 
-          <button class="bg-primary active" data-bs-target="#carrouselCaracteristicas" data-bs-slide-to="0" aria-current="true" aria-label="Grupo 1"></button>
-          <button class="bg-primary" data-bs-target="#carrouselCaracteristicas" data-bs-slide-to="1" aria-label="Grupo 2"></button>
-        </div>   
-      </div>
-    </div>
-  </div>
-  <!-- Fin carrousel destacados -->
+      <!-- Fin del  Carrusel -->
 
-  <!-- Área Cotecmar Redes -->
-  <div class="container mt-2 bg-brand-light text-white p-4"> 
-    <div class="row">
-      <div class="col-md-6">  
-        <h2 class="font-family-cotecmar-medium">COTECMAR EN REDES  </h2>
-      </div>
-      <div class="col-md-6 text-end">
-        <a class="text-white btn btn-primary ms-1" href="https://www.instagram.com/cotecmar/" title="Síguenos en Instagram">
-          <span class="fab fa-2x fa-instagram"> </span>
-        </a>
-        <a class="text-white btn btn-primary ms-1" href="https://twitter.com/cotecmar" title="Síguenos en Twitter">
-          <span class="fab fa-2x fa-linkedin-in"></span>
-        </a>
-        <a class="text-white btn btn-primary ms-1" href="https://www.facebook.com/Cotecmar/" title="Síguenos en Facebook"> 
-          <span class="fab fa-2x fa-facebook"> </span>
-        </a>
-        <a class="text-white btn btn-primary ms-1" href="https://twitter.com/cotecmar" title="Síguenos en Twitter">
-          <span class="fab fa-2x fa-twitter"></span>
-        </a>
-        <a class="text-white btn btn-primary ms-1" href="https://www.youtube.com/channel/UCSTCFvikz0oN2xlfXdZ81oQ" title="Síguenos en Youtube">
-          <span class="fab fa-2x fa-youtube"> </span>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="bg-brand-light p-4"> 
-      <div class="container">
-        <div class="row">
+      <!-- Breadcumbs -->
+      <section class="row">
+        <nav class="p-2 m-2" aria-label="breadcrumb">
+          <ol class="breadcrumb">            
+            <!-- Link a inicio -->
+            <li class="breadcrumb-item">
+              <span class="fa fa-home"></span>
+              <a href="index.html">Inicio</a>
+            </li>     
+          </ol>
+        </nav>
+      </section>
+      <!-- Fin Breadcumbs -->
 
-          <div class="col-sm-12 col-md-12 col-lg-6 g-2">
-            <div class="card bg-light p-4 h-100 no-gutters">
-              <h3 class="card-title">Instagram  </h3>
+      <!-- A partir de este punto, el content asumirá col-sm-8 con offset-sm-2 de acuerdo a la configuración sin bloques -->
+      <!-- Titular -->
+      <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+          <h2 class="my-3 font-family-cotecmar font-family-cotecmar-medium text-brand text-center">
+            SISTEMA INTEGRADO DE GESTIÓN COMERCIAL - SIGC2
+          </h2>
+        </div>
+      </div>
+      <!-- Fin Titular -->
+
+      <!-- Contenido -->
+      <div class="row">
+        <div class="col-sm-10 offset-sm-1 bg-white p-5">
+
+          <div class="row">
+            <!-- Menú lateral -->
+            <div class="col-md-3">
+              <div class="list-group mb-3">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  SIGC2
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Clientes</a>
+                <a href="#" class="list-group-item list-group-item-action">Proveedores</a>
+                <a href="#" class="list-group-item list-group-item-action">Funcionarios</a>
+              </div>
+            <!-- Fin Menú lateral -->
+            </div>
+
+            <!-- Contenido principal -->
+            <article class="col-md-9">
+              <h3 class="h4 text-brand">Bienvenido a SIGC2</h3>
               <div class="row">
-
-                <div class="col-xs-12 col-sm-6"> 
-                  <a href="https://www.instagram.com/p/CN-VkfggsOh/"> 
-                    <img class="img-fluid" src="assets/img/redessociales/instagram/instagram1.jpg" alt="Foto 1 de instagram">
-                  </a>
+                <div class="col-sm-12 p-5">
+                  <img class="img-fluid" src="assets/img/imagenportal.jpg" alt="Imagen de Portal">
                 </div>
-                <div class="col-xs-12 col-sm-6"> 
-                  <a href="https://www.instagram.com/p/CNIhfbNg93t/"> 
-                    <img class="img-fluid" src="assets/img/redessociales/instagram/instagram2.jpg" alt="Foto 2 de instagram">
-                  </a>
-                </div>
-                <div class="col-xs-12 col-sm-6"> 
-                  <a href="https://www.instagram.com/p/CMnCKG4gx47/"> 
-                    <img class="img-fluid" src="assets/img/redessociales/instagram/instagram3.jpg" alt="Foto 3 de instagram">
-                  </a>
-                </div>
-                <div class="col-xs-12 col-sm-6"> 
-                  <a href="https://www.instagram.com/p/CLnVa5kgY5l/"> 
-                    <img class="img-fluid" src="assets/img/redessociales/instagram/instagram4.jpg" alt="Foto 4 de instagram">
-                  </a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-md-12 col-lg-6 g-2">
-            <div class="card bg-light p-4 h-100 no-gutters"> 
+              </div>              
+              <!-- Sección entradilla -->
               <div class="row">
-
-                <div class="col-sm-12">
-                  <h3 class="card-title">Linkedin  </h3>
-                  <p>A través de la experiencia adquirida durante más de 20 años en el diseño y construcción de buques y artefactos navales que opera exitosamente la Armada de Colombia, hemos innovado en soluciones tecnológicas de beneficio e impacto social ajustadas a las necesidades de las zonas fluviales y costeras de difícil acceso del país, conoce nuestra oferta en linkedin. </p><a href="https://www.linkedin.com/feed/update/urn:li:activity:6787828067264974848/"> <img class="img-fluid" src="assets/img/redessociales/linkedin/linkedin1.jpg" alt="Foto 1 de linkedin"></a>
+                <div class="col-sm-12 bg-white p-5 border mt-3 mb-3 sombra-1">                  
+                  <p>El Sistema Integrado de Gestión Comercial de COTECMAR (SIGC2)</p>
+                  <p>Es una herramienta web dinámica, segura y fácil de manejar, que proporciona tanto al personal de la corporación como a clientes una manera eficiente de solicitar, crear, enviar y recibir cotizaciones, además de permitir a los proveedores ofrecer sus productos y servicios.</p>
+                  <p>Sólo para personal autorizado.</p>
                 </div>
-
               </div>
-            </div>
+            </article>
+            <!-- Fin Contenido principal -->
+
           </div>
 
         </div>
-    </div>
-  </div>
-  <!-- fin Área Cotecmar Redes -->
+      </div>
+      <!-- Fin Contenido Central -->
 
-  <!-- Área Centro de medios -->
-  <div class="container my-5 align-self-center p-5 sombra-1 border bg-white"> 
-    <div class="row"> 
-      <div class="col-md-6">
-        <h2 class="h4">
-          <a class="text-decoration-none" href="articulos.html">
-            <span class="fas fa-newspaper"> </span> 
-            Centro de medios    
-          </a>
-        </h2>
+      <!-- A partir de este punto, el content asumirá col-sm-8 con offset-sm-2 de acuerdo a la configuración sin bloques -->
+      <!-- Encabezado sección -->
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <h2 class="text-center my-3 font-family-cotecmar font-family-cotecmar-medium divisor-titulo text-brand mb-5"> 
+            NUESTRO PORTAL 
+          </h2>
+        </div>
       </div>
-    </div>
-  </div>
-  <!-- Fin Área Centro de medios -->
+      <!-- Fin Encabezado sección -->
 
-  <!-- Área Carrousel Aliados -->
-  <div class="container-fluid mb-5 sombra-1 border bg-white p-5 text-center"> 
-    <div class="row">
-      <div class="col-8 text-center offset-2"> 
-        <h2 class="font-family-cotecmar-medium mb-4"> Aliados </h2> 
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-1"> 
-        <button class="carousel-control-prev" type="button" data-bs-target="#carrouselAliados" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-          <span class="visually-hidden"> Anterior </span>
-        </button>
-      </div>
-      <div class="col-10"> 
-        <div class="carousel slide carousel-dark" id="carrouselAliados" data-bs-ride="carousel" data-bs-interval="false" data-bs-pause="hover"> 
-          <div class="carousel-inner"> 
+      <!-- Fila de contenido -->
+      <div class="row">
+        <!-- Div que emula el contenedor sin laterales -->
+        <div class="col-sm-8 offset-sm-2">
+          <div class="row">
+
+            <!-- Elemento de portal -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 sombra-1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="text-center my-3">
+                        <a
+                          class="stretched-link text-decoration-none text-center my-3"
+                          href="#" title="Enlace categoría Portal solicitudes"
+                          >
+                          <span class="fas fa-file-alt fa-3x"></span>
+                        </a>
+                      </p>    
+                    </div>
+                    <div class="col-sm-9">
+                      <h3 class="card-title ms-1">Portal para solicitudes y cotizaciones en línea</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p>Los clientes de COTECMAR ahora podrán realizar sus cotizaciones y enviar los requerimientos desde cualquier dispositivo con acceso a internet, a través de nuestro portal de cotizaciones.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Elemento de portal -->
+
+            <!-- Elemento de portal -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 sombra-1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="text-center my-3">
+                        <a
+                          class="stretched-link text-decoration-none text-center my-3"
+                          href="#" title="Enlace categoría Portal solicitudes"
+                          >
+                          <span class="fas fa-users fa-3x"></span>
+                        </a>
+                      </p>    
+                    </div>
+                    <div class="col-sm-9">
+                      <h3 class="card-title ms-1">Nuestros Clientes</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                      <img class="img-fluid" src="assets/img/aliados.jpg" alt="Imagenés de nuestros clientes">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Elemento de portal -->
             
-            <div class="carousel-item active mb-2"> 
-              <div class="row"> 
-                <div class="col-sm-6 col-md-3"> <a href="https://www.armada.mil.co/" target="_blank"><img class="img-fluid" src="assets/img/aliadoshome/Logo-ARC.png" alt="Logo ARC"></a></div>
-                <div class="col-sm-6 col-md-3"> <a href="http://colombiamar.co/" target="_blank"><img class="img-fluid" src="assets/img/aliadoshome/Logo-COLOMBIAMAR.png" alt="Logo ColombiaMAR"></a></div>
-                <div class="col-sm-6 col-md-3"> <a href="http://www.escuelanaval.edu.co/" target="_blank"><img class="img-fluid" src="assets/img/aliadoshome/Logo-ENAP.png" alt="Logo ENAP"></a></div>
-                <div class="col-sm-6 col-md-3"> <a href="https://www.gsed.gov.co/irj/portal/GSED?guest_user=Guest_GSED" target="_blank"><img class="img-fluid" src="assets/img/aliadoshome/logo-GSED.png" alt="Logo GSED"></a></div>
+            <!-- Elemento de portal -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 sombra-1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="text-center my-3">
+                        <a
+                          class="stretched-link text-decoration-none text-center my-3"
+                          href="#" title="Enlace categoría Portal solicitudes"
+                          >
+                          <span class="fas fa-hand-holding fa-3x"></span>
+                        </a>
+                      </p>    
+                    </div>
+                    <div class="col-sm-9">
+                      <h3 class="card-title ms-1">Nuestros Proveedores</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                      <img class="img-fluid" src="assets/img/construccion.jpg" alt="Imágenes de proveedores en cotecmar">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="carousel-item mb-2">
-              <div class="row"> 
-                <div class="col-sm-6 col-md-3"> <a href="http://ipinamericas.org/" target="_blank"><img class="img-fluid" src="assets/img/aliadoshome/Logo-IPIN.png" alt="Logo IPIN"></a></div>
-                <div class="col-sm-6 col-md-3"> <a href="https://unal.edu.co/" target="_blank"><img class="img-fluid" src="assets/img/aliadoshome/Logo-UNAL.png" alt="Logo UNAL"></a></div>
-                <div class="col-sm-6 col-md-3"> <a href="https://www.uninorte.edu.co/" target="_blank"><img class="img-fluid" src="assets/img/aliadoshome/Logo-UNINORTE.png" alt="Logo UNINORTE"></a></div>
-                <div class="col-sm-6 col-md-3"> <a href="https://www.utb.edu.co/" target="_blank"><img class="img-fluid" src="assets/img/aliadoshome/UTBLogo.gif" alt="Logo UTB"></a></div>                         
+            <!-- Fin Elemento de portal -->
+            
+            <!-- Elemento de portal -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 sombra-1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="text-center my-3">
+                        <a
+                          class="stretched-link text-decoration-none text-center my-3"
+                          href="#" title="Enlace categoría Portal solicitudes"
+                          >
+                          <span class="fas fa-handshake fa-3x"></span>
+                        </a>
+                      </p>    
+                    </div>
+                    <div class="col-sm-9">
+                      <h3 class="card-title ms-1">Portal para Proveedores</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p>Regístrese como proveedor para ofrecer sus productos y servicios a la Corporación, así como establecer intervalos de tiempo en los que la oferta será válida y actualizar sus precios, en el Portal de Proveedores.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+            <!-- Fin Elemento de portal -->
+            
+            <!-- Elemento de portal -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 sombra-1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="text-center my-3">
+                        <a
+                          class="stretched-link text-decoration-none text-center my-3"
+                          href="#" title="Enlace categoría Portal solicitudes"
+                          >
+                          <span class="fas fa-cogs fa-3x"></span>
+                        </a>
+                      </p>    
+                    </div>
+                    <div class="col-sm-9">
+                      <h3 class="card-title ms-1">Portal de índice de maquinaria</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p>Registre la unidad que usted representa, ingresando sus características técnicas en nuestro portal de Índice de Maquinaria.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Elemento de portal -->
+            
+            <!-- Elemento de portal -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 sombra-1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="text-center my-3">
+                        <a
+                          class="stretched-link text-decoration-none text-center my-3"
+                          href="#" title="Enlace categoría Portal solicitudes"
+                          >
+                          <span class="fas fa-ship fa-3x"></span>
+                        </a>
+                      </p>    
+                    </div>
+                    <div class="col-sm-9">
+                      <h3 class="card-title ms-1">Nuestras Unidades</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                      <img class="img-fluid" src="assets/img/maquinaria1.jpg" alt="Imágenes de nuestras unidades">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Elemento de portal -->            
+    
+          </div>  
         </div>
       </div>
-      <div class="col-1"> 
-        <button class="carousel-control-next" type="button" data-bs-target="#carrouselAliados" data-bs-slide="next">
-          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-          <span class="visually-hidden"> Siguiente </span>
-        </button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="carousel-indicators"> 
-          <button class="bg-primary active" data-bs-target="#carrouselAliados" data-bs-slide-to="0" aria-current="true" aria-label="Grupo 1"></button>
-          <button class="bg-primary" data-bs-target="#carrouselAliados" data-bs-slide-to="1" aria-label="Grupo 2"></button>
-        </div>   
-      </div>
-    </div>
-  </div> 
-  <!--Fin  Área Carrousel Aliados -->
+      <!-- Fin fila de contenido  -->
 
-  <!-- Area comunicaciones judiciales -->
-  <div class="container-fluid bg-brand-light text-white mt-5 p-5 text-center"> 
-    <div class="row"> 
-      <div class="col col-sm-12 col-md-6 border-end"> 
-        <p> COTECMAR se permite informar al público que el correo electrónico  <a class="text-white" href="mailto:notificacionesjudiciales@cotecmar.com" > notificacionesjudiciales@cotecmar.com </a>  es exclusivo para la recepción de notificaciones judiciales conforme lo ordenado por los artículos 197 y 199 de la Ley 1437 de 2011 -Código de Procedimiento Administrativo y de lo Contencioso Administrativo.</p>
-        <p><span class="fas fa-envelope-open-text fa-3x"> </span></p>
-      </div>
-      <div class="col col-sm-12 col-md-6"> 
-        <p> Aquí va otro texto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ab quam, esse ipsum corporis alias quae autem rerum deleniti velit! Deserunt temporibus odit error earum aliquam quas enim fugit itaque! Finalmente este sería otro texto que podría tener aproximadamente el mismo alto </p>
-        <p><span class="fas fa-envelope-open-text fa-3x"> </span></p>
-      </div>
-    </div>
-  </div>
-  <!-- Fin Area comunicaciones judiciales -->
+    </section>
+  </main>
+  <!-- Fin Contenido de la web  -->
 
   <!-- Area Footer-->
-  <footer class="container-fluid text-white"> 
-
-    <div class="row"> 
-
+  <footer class="container-fluid text-white">
+    <div class="row">
+      
       <div class="col p-3 bg-brand">
-        <div class="row"> 
-
+        <div class="row">
+          <!-- Direcciones corporativas -->
           <div class="col-sm-8 p-3 bg-brand">
-            <div class="row">          
-              <div class="col-md-3 ps-lg-5"> 
+            <div class="row">
+              <div class="col-md-3 ps-lg-5">
                 <p class="lead">Presidencia </p>
-                <div class="address">Ed. Bogotá Corporate Center Av el dorado # 69-53 <br> Bogotá D.C Colombia  <br> Tel: +57 (1) 794 3243  <br> Código Postal 130009 <br></div>
+                <div class="address">Ed. Bogotá Corporate Center Av el dorado # 69-53 <br> Bogotá D.C Colombia <br> Tel:
+                  +57 (1) 794 3243 <br> Código Postal 130009 <br></div>
               </div>
-              <div class="col-md-3"> 
+              <div class="col-md-3">
                 <p class="lead">Vicepresidencia </p>
-                <div class="address">Centro Plaza San Pedro, No. 4 - 34 <br>  Cartagena de indias  <br> Tel: +57 (5) 643 9491 Ext. 5540 <br> Código Postal 130001 <br></div>
+                <div class="address">Centro Plaza San Pedro, No. 4 - 34 <br> Cartagena de indias <br> Tel: +57 (5) 643
+                  9491 Ext. 5540 <br> Código Postal 130001 <br></div>
               </div>
-              <div class="col-md-3"> 
+              <div class="col-md-3">
                 <p class="lead">Planta Mamonal </p>
-                <div class="address">Zona industrial Mamonal km 9 <br> Cartagena de indias  <br> el +57 (5) 643 9491 <br> Código Postal 130009 <br></div>
+                <div class="address">Zona industrial Mamonal km 9 <br> Cartagena de indias <br> el +57 (5) 643 9491 <br>
+                  Código Postal 130009 <br></div>
               </div>
-              <div class="col-md-3"> 
+              <div class="col-md-3">
                 <p class="lead">Planta Bocagrande </p>
-                <div class="address">Carrera 2da Base Naval A.R.C. Bolívar <br> Cartagena de indias  <br> Tel: +57 (5) 643 9491 ext. 1104 <br>Código Postal 130001 <br></div>
+                <div class="address">Carrera 2da Base Naval A.R.C. Bolívar <br> Cartagena de indias <br> Tel: +57 (5)
+                  643 9491 ext. 1104 <br>Código Postal 130001 <br></div>
               </div>
             </div>
           </div>
+          <!-- Fin Direcciones corporativas -->
 
-            
-
-          <nav class="col-md-3 border-start pl-2 pt-3"> 
-            <ul class="list-unstyled"> 
+          <!-- Menú auxiliar corporativo -->
+          <nav class="col-md-3 border-start pl-2 pt-3">
+            <ul class="list-unstyled">
               <li> <a class="btn text-white text-start link-hover" href="#">Contacto </a></li>
               <li> <a class="btn text-white text-start link-hover" href="#">Proveedores </a></li>
-              <li> <a class="btn text-white text-start link-hover" href="#">Transparencia y acceso a la información pública  </a></li>
+              <li> <a class="btn text-white text-start link-hover" href="#">Transparencia y acceso a la información
+                  pública </a></li>
               <li> <a class="btn text-white text-start link-hover" href="#">Trabaja con nosotros </a></li>
               <li> <a class="btn text-white text-start link-hover" href="#">Webmail </a></li>
               <li> <a class="btn text-white text-start link-hover" href="#">Descargas </a></li>
               <li> <a class="btn text-white text-start link-hover" href="#">Success Factor </a></li>
             </ul>
           </nav>
+          <!-- Fin Menú auxiliar corporativo -->
 
-          
         </div>
       </div>
 
     </div>
-    
+
     <div class="row border-bottom"> </div>
-    <div class="row">    
+
+    <div class="row">
       <div class="col p-3 align-items-center bg-brand">
 
         <div class="row">
-
-          <div class="col-md-1"> 
-            <img class="img-fluid" src="assets/img/logo_cotecmar-negativo.svg" alt="Logo COTECMAR pie de página" style="height:50px">
+          <!-- Copyright -->
+          <div class="col-md-1">
+            <img class="img-fluid" src="assets/img/logo_cotecmar-negativo.svg" alt="Logo COTECMAR pie de página"
+              style="height:50px">
           </div>
-          <div class="col-md-6">   
-            <p>2021 Todos los derechos reservados &copy; Copyright COTECMAR - Cartagena de Indias Colombia <br />  Web creada con Drupal - theme basado en Bootstrap - Íconos de Font Awesome y fuentes de Google Fonts</p>
+          <div class="col-md-6">
+            <p>2021 Todos los derechos reservados &copy; Copyright COTECMAR - Cartagena de Indias Colombia <br /> Web
+              creada con Drupal - theme basado en Bootstrap - Íconos de Font Awesome y fuentes de Google Fonts</p>
           </div>
+          <!-- Fin Copyright -->
+          <!-- Socialmedia -->
           <div class="col-md-2 text-end"> <span>Síguenos en redes sociales </span></div>
           <div class="col-md-3">
 
             <div class="btn-group my-sm-1">
-              <a class="text-white btn btn-primary ms-1" href="https://www.instagram.com/cotecmar/" title="Síguenos en Instagram">
+              <a class="text-white btn btn-primary ms-1" href="https://www.instagram.com/cotecmar/"
+                title="Síguenos en Instagram">
                 <span class="fab fa-2x fa-instagram"> </span>
               </a>
-              <a class="text-white btn btn-primary ms-1" href="https://twitter.com/cotecmar" title="Síguenos en Twitter">
+              <a class="text-white btn btn-primary ms-1" href="https://twitter.com/cotecmar"
+                title="Síguenos en Twitter">
                 <span class="fab fa-2x fa-linkedin-in"> </span>
               </a>
             </div>
             <div class="btn-group my-sm-1">
-              <a class="text-white btn btn-primary ms-1" href="https://www.facebook.com/Cotecmar/" title="Síguenos en Facebook"> 
+              <a class="text-white btn btn-primary ms-1" href="https://www.facebook.com/Cotecmar/"
+                title="Síguenos en Facebook">
                 <span class="fab fa-2x fa-facebook"> </span>
               </a>
-              <a class="text-white btn btn-primary ms-1" href="https://twitter.com/cotecmar" title="Síguenos en Twitter">
+              <a class="text-white btn btn-primary ms-1" href="https://twitter.com/cotecmar"
+                title="Síguenos en Twitter">
                 <span class="fab fa-2x fa-twitter"> </span>
               </a>
             </div>
-            <div class="btn-group my-sm-1">                
-              <a class="text-white btn btn-primary ms-1" href="https://www.youtube.com/channel/UCSTCFvikz0oN2xlfXdZ81oQ" title="Síguenos en Youtube">
+            <div class="btn-group my-sm-1">
+              <a class="text-white btn btn-primary ms-1" href="https://www.youtube.com/channel/UCSTCFvikz0oN2xlfXdZ81oQ"
+                title="Síguenos en Youtube">
                 <span class="fab fa-2x fa-youtube"> </span>
               </a>
             </div>
 
           </div>
+          <!-- Fin Socialmedia -->
+
         </div>
       </div>
     </div>
   </footer>
   <!-- Fin  Area Footer-->
 
-    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/cotecmar.js"></script>
+  <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/cotecmar.js"></script>
 </body>
+
 </html>
